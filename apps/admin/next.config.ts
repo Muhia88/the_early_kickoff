@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  transpilePackages: ["@the-early-kickoff/auth", "@the-early-kickoff/db"],
 };
 
 export default nextConfig;
